@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Birthday Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <style>
+      body {
+        background-color: #f8f8ff;
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        margin: auto;
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 5px #ff69b4;
+        border-radius: 10px;
+      }
+
+      .message {
+        flex: 1;
+        text-align: left;
+        margin-right: 50px;
+      }
+
+      h1 {
+        color: #ff69b4;
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: #808080;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+
+      .swiper-container {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 5px #ff69b4;
+      }
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="message">
+        <h1>Happy Birthday!</h1>
+        <p>Wishing you a day filled with joy and laughter.</p>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/05/23/22/33/birthday-2338813__340.jpg"
+              alt="Birthday Cake"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://media.istockphoto.com/id/173577639/photo/chocolate-birthday-cake-isolated-on-white.jpg?s=612x612&w=0&k=20&c=dm57x2mrICz3TpKZLg2Qp4fg1bbgSQKeOaicA8VmIEM="
+              alt="Birthday Cake"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9GDwjZbHUriq_vHLR12K06Uv76pJ9oOykEQr2ucMe&s"
+              alt="Birthday Cake"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/05/23/22/33/birthday-2338813__340.jpg"
+              alt="Birthday Cake"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      // Initialize Swiper
+      var swiper = new Swiper(".swiper-container", {
+        loop: true,
+        autoplay: true,
+        effect: "fade",
+        speed: 1000,
+        autoplay: {
+          delay: 3000,
+        },
+      });
+    </script>
+  </body>
+</html>

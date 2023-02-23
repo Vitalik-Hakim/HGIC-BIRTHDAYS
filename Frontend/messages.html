@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personalized Messages</title>
+    <style>
+      body {
+        background-color: #f8f8ff;
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        margin: auto;
+        padding: 50px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 5px #ff69b4;
+        border-radius: 10px;
+      }
+
+      .card {
+        flex: 1;
+        margin: 0 10px;
+        margin-bottom: 10%;
+        padding: 20px;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 2px #ff69b4;
+      }
+
+      h1 {
+        color: #ff69b4;
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: #808080;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+
+      .name {
+        color: #ff69b4;
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="names-container"></div>
+    </div>
+    <script>
+      // Fetch the API
+      fetch("http://127.0.0.1:8000/find-birthday")
+        .then((response) => response.json())
+        .then((names) => {
+          // Create a personalized message card for each name
+          const namesContainer = document.getElementById("names-container");
+          names.forEach((name) => {
+            const card = document.createElement("div");
+            card.classList.add("card");
+            card.innerHTML = `
+						<p>Dear <span class="name">${name}</span>,</p>
+						<p>Wishing you a happy day!</p>
+					`;
+            namesContainer.appendChild(card);
+          });
+        })
+        .catch((error) => console.error(error));
+    </script>
+  </body>
+</html>
