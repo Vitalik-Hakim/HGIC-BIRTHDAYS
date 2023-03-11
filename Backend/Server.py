@@ -1,12 +1,28 @@
-import requests
-import re
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
-import json
-from Main import FIND_BIRTHDAY
+from Main import GetTodayBirthdays,PromoteYear,Add_student,getAllBirthdays, Delete_student,updateBirthday
+from fastapi import APIRouter
+from fastapi import Request
+from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles #new
+from fastapi.templating import Jinja2Templates
+
+
+templates = Jinja2Templates(directory="templates")
+
+def configure_static(app):  #new
+    app.mount("/static", StaticFiles(directory="static"), name="static")
+
+def start_application():
+    app = FastAPI()
+    configure_static(app)
+    
+    return app 
+
+
 
 #Initialize FastAPI App
-app = FastAPI()
+app = start_application()
 
 # Add CORS allowed sites and local host for debugging
 origins = [
@@ -28,45 +44,69 @@ app.add_middleware(
 )
 
 
-# Search Algorithm
 
-import calendar
-from datetime import date
+@app.get("/today")
+async def home(request: Request):
+	return templates.TemplateResponse("today.html",{"request":request})
+ 
+@app.get("/home")
+async def home(request: Request):
+	return templates.TemplateResponse("index.html",{"request":request})
 
-
-today = date.today() 
-
-# current_month_name = calendar.month_name[date.today().month]
-
-# Using the abbreviated version:
-current_month_name_abbreviated = calendar.month_abbr[date.today().month]
-
-month = current_month_name_abbreviated
-
-day = today.day
-
-# print(month, today.day)
-
-# Now lets join it like the format in the data
-
-format = str(day)+"-"+month
-
-# print(format)
-
-# Hard coded format for testing purposes
-
-# format = "21-Feb"
-
+@app.get("/addstudent")
+async def addstudent(request: Request):
+	return templates.TemplateResponse("addstudent.html",{"request":request})
+ 
 
 
 @app.get("/")
-async def fail_safe3():
+async def index():
     return "Welcome to birthday API"
 
 
-@app.get("/find-birthday")
-async def name_search():
-    # print(string_get)
-    Birthdays_Today= FIND_BIRTHDAY(format)
-    Birthdays_Today = [x.replace(format, '') for x in Birthdays_Today]
-    return Birthdays_Today
+@app.get("/getbirthday")
+async def getBirthday():
+    birthdays = GetTodayBirthdays()
+
+    return birthdays
+
+@app.get("/updateyeargroup")
+async def UpdateYeargroups():
+    PromoteYear()
+
+    return 'Promotion Successfull'
+
+@app.get("/add-birthday")
+async def add_birthday(name: str,day: str,month: str, yeargroup: str, image: str):
+    try:
+        Add_student(name,day,month,yeargroup,image)
+        return 'success'
+    except:
+        return 'An error occurred'
+
+
+# Get alll
+@app.get("/getall")
+async def getall():
+    All_birthdays = getAllBirthdays()
+
+    return All_birthdays
+
+# Delete a specific Birthday ##
+
+@app.get("/delete-birthday")
+async def delete_birthday(day: str,month: str,name: str, yeargroup: str):
+    try:
+        Delete_student(name,day,month,yeargroup)
+
+        print('successfully Deleted')
+    except:
+        return 'An error occurred'
+    
+@app.get("/update-birthday")
+async def update_birthday(day: str,month: str,name: str, yeargroup: str,id: int):
+    try:
+        updateBirthday(name,day,month,yeargroup,id)
+        return 'Successfully updated'
+    except:
+        return 'An error occurred'

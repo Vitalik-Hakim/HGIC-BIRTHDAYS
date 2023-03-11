@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday API</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+  </head>
+  <body>
+    <div class="header-text"><h1>HGIC Birthday API</h1></div>
+    <style>
+      .btn-table {
+        padding-left: 5px;
+      }
+      .header-text{
+        text-align: center;
+      }
+    </style>
+    
+    </script>
+    {% block content %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/addstudent"><button type="button" class="btn btn-success">Add New Student</button></a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/today"><button type="button" class="btn btn-primary">Birthdays Today</button></a>
+        </li>
+      </ul>
+          
+        </div>
+      </div>
+    </nav>
+      <table class="table  table-hover table-striped" id="data-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Day</th>
+          <th>Month</th>
+          <th>Year Group</th>
+          <th>Image</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody class="btn-table"></tbody>
+    </table>
+  <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"  id="exampleModalLabel" >Edit Records</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+<div class="modal-body">
+      <div class="mt-4">
+      <div
+        class="alert alert-success alert-dismissible fade show hoverable"
+        role="alert"
+        style="display: none"
+      >
+        Updated successfully Now close!
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+        <form>
+          <div class="form-group">
+            <label for="ID">ID:</label>
+                <input type="text" class="form-control" id="birthday-id" disabled>
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="birthday-name" placeholder="Enter name">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="day">Day:</label>
+              <input
+            type="number"
+            class="form-control"
+            id="birthday-day"
+            name="day"
+            min="1"
+            max="31"
+            required
+          />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="month">Month:</label>
+              <select class="form-control" id="birthday-month">
+                <option value="Jan">January</option>
+                <option value="Feb">February</option>
+                <option value="Mar">March</option>
+                <option value="Apr">April</option>
+                <option value="May">May</option>
+                <option value="Jun">June</option>
+                <option value="July">July</option>
+                <option value="Aug">August</option>
+                <option value="Sep">September</option>
+                <option value="Oct">October</option>
+                <option value="Nov">November</option>
+                <option value="Dec">December</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="yeargroup">Year Group:</label>
+            <select class="form-control" id="birthday-yeargroup">
+              <option value="MYP4">MYP4</option>
+              <option value="MYP5">MYP5</option>
+              <option value="DP1">DP1</option>
+              <option value="DP2">DP2</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="image">Image Link:</label>
+            <input type="text" class="form-control" id="birthday-image" placeholder="Enter image link">
+          </div>
+        </form>
+      </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="save-changes-button" name="save-changes-button">Save changes</button>
+      </div>
+       </form>
+
+    </div>
+  </div>
+</div>
+    <script>
+
+// Update records
+
+$(document).ready(() => {
+
+function updateBirthday(id, name, day, month, yeargroup, image) {
+    const url = 'http://127.0.0.1:8000/update-birthday';
+    const params = {
+      id: id,
+      name: name,
+      day: day,
+      month: month,
+      yeargroup: yeargroup,
+    };
+      const queryString = new URLSearchParams(params).toString();
+  fetch(`${url}?${queryString}`)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Failed to update birthday.');
+    }
+    // Handle success here
+    console.log('Birthday updated successfully.');
+                $(".alert-success").fadeIn(1000, () => {
+                $(".alert-success").fadeOut(5000);
+              });
+              form.trigger("reset");
+ // Close the modal
+
+  })
+  .catch(error => {
+    // Handle error here
+    console.error(error);
+  });
+}
+const saveChangesButton = document.querySelector('#save-changes-button');
+// Add a click event listener to the button
+  saveChangesButton.addEventListener('click', () => {
+    console.log('clicked')
+  // Get the updated values from the input fields on the modal
+  const id = document.querySelector('#birthday-id').value;
+  const name = document.querySelector('#birthday-name').value;
+  const day = document.querySelector('#birthday-day').value;
+  const month = document.querySelector('#birthday-month').value;
+  const yeargroup = document.querySelector('#birthday-yeargroup').value;
+  const image = document.querySelector('#birthday-image').value;
+
+  // Call the updateBirthday function with the updated values
+  updateBirthday(id, name, day, month, yeargroup, image);
+});
+
+
+
+
+
+
+
+
+function deleteBirthday(details) {
+    const params = {
+      name: details.name,
+      day: details.day,
+      month: details.month,
+      yeargroup: details.yeargroup,
+    };
+    const url = 'http://127.0.0.1:8000/delete-birthday'
+    const queryString = new URLSearchParams(params).toString();
+fetch(`${url}?${queryString}`)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error("Failed to delete birthday.");
+    }
+    // Handle success here
+    console.log("Birthday deleted successfully.");
+  })
+  .catch(error => {
+    // Handle error here
+    console.error(error);
+  });
+
+
+   // Get a reference to the "Save changes" button on the modal
+
+}
+
+  $.ajax({
+    type: "GET",
+    url: "http://127.0.0.1:8000/getall",
+    success: (data) => {
+      const birthdays = data;
+      const tbody = $("#data-table tbody");
+      birthdays.forEach((birthday) => {
+        const row = $("<tr>");
+        $("<td>").text(birthday.id).appendTo(row);
+        $("<td>").text(birthday.name).appendTo(row);
+        $("<td>").text(birthday.day).appendTo(row);
+        $("<td>").text(birthday.month).appendTo(row);
+        $("<td>").text(birthday.yeargroup).appendTo(row);
+        $("<td>").append(
+            $("<img>").attr({
+                "src": birthday.image,
+                "height": "50",
+                "width": "50"
+              })
+            ).appendTo(row);
+        const actionCell = $("<td>").addClass("btn-table").appendTo(row);
+        $("<button>").addClass("btn btn-danger")
+        .text("Delete")
+        .attr("href", "#")
+        .click(function() {
+            if (confirm(`Are you sure you want to delete ${birthday.name}?`)) {
+                deleteBirthday(birthday);
+            } else {
+                console.log('Delete cancelled.');
+            }
+        })
+        .appendTo(actionCell);
+        $("<button>").addClass("btn btn-warning")
+        .text("Update")
+        .attr("href", "#")
+        .attr("data-bs-toggle", "modal")
+        .attr("data-bs-target", "#exampleModal")
+        .click(function() {
+          // Add your update logic here
+              $("#birthday-name").val(birthday.name);
+              $("#birthday-day").val(birthday.day);
+              $("#birthday-month").val(birthday.month);
+              $("#birthday-yeargroup").val(birthday.yeargroup);
+              $("#birthday-image").val(birthday.image);
+              $("#birthday-id").val(birthday.id);
+        })
+  .appendTo(actionCell);
+
+        row.appendTo(tbody);
+      });
+    },
+    error: (error) => {
+      console.log(error);
+    },
+  });
+});
+    </script>
+    {% endblock %}
+  </body>
+</html>

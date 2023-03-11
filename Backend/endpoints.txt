@@ -1,0 +1,7 @@
+
+add student
+delete students
+Get all birthdays
+
+with different parameters
+

@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Personalized Messages</title>
+    <button type="submit" id="signout">Log Out</button>
     <style>
       body {
         background-color: #f8f8ff;
@@ -75,7 +76,7 @@
             const card = document.createElement("div");
             card.classList.add("card");
             card.innerHTML = `
-						<p>Dear <span class="name">${name}</span>,</p>
+						<p><span class="name">${name}</span>,</p>
 						<p>Wishing you a happy day!</p>
 					`;
             namesContainer.appendChild(card);
@@ -83,5 +84,6 @@
         })
         .catch((error) => console.error(error));
     </script>
+    <script src="app-2.js"></script>
   </body>
 </html>

@@ -1,0 +1,261 @@
+Bright 	Vincent	HORTORKU	21-Jan	MYP5
+Corneille 	Job	NGERAGEZE	1-Jan	MYP5
+Uwase		NADINE	2-Jan	MYP5
+Tanaka		MANHUWA	3-Jan	MYP5
+Ladybird	Nana Akyaa	TETTEY	11-Jan	MYP5
+Afia		AGYENIM-BOATENG	26-Jan	MYP5
+Richard		MADZIYE	4-Jan	MYP5
+Zitong		QIAO	31-Jan	DP1
+Adeliane		UMUKUNDWA	15-Jan	DP1
+Aron	 Kiprono	CHERUIYOT	3-Jan	DP1
+Phoebe	Queeny Abena	NKRUMAH 	11-Jan	DP1
+Dominic 	Odartei	QUARCOOPOME	10-Jan	DP1
+Obed 	Opoku	AMEYAW	20-Jan	DP1
+Jude 	Joey	ANNAN	7-Jan	DP1
+Jayden 	Robert	FLEISCHER-DJOLETO	6-Jan	DP1
+Vanessa		IGISUBIZO	1-Jan	DP1
+Akosua 	Okobea	OPARE	2-Jan	DP2
+Don 	Divin	MBONIMPA	1-Jan	DP2
+David 	Kweku	SEGBEDZI	15-Jan	DP2
+Jiayi		XU	26-Jan	DP2
+Nana Adwoa 	Owude	ESHUN	3-Jan	DP2
+Blessing 	Talent	KARORO	1-Jan	DP2
+Turfena		ADHIAMBO	6-Jan	DP2
+Jaiden Alexander	Kwame Osei	DARKOH	15-Jan	DP2
+Renatha		GATOYA DUSHIME	20-Jan	DP2
+Maimuna		IDDRISSU	26-Jan	DP2
+Gerard		NAHIMANA	1-Jan	DP2
+Kekeli	Goza	AGBOZO	23-Feb	MYP5
+Biniam	Kumsa	DELESSA	25-Feb	MYP5
+Carlos		ODHIAMBO	24-Feb	MYP5
+Nana Osafoaa		ASUMANG	17-Feb	MYP5
+Auriel	Nana Akosua	DUAH	18-Feb	MYP5
+Jotham	Nshira	JONES-ASANTE	23-Feb	MYP5
+Nathaniel		ODOI	1-Feb	MYP5
+Nana Akua	Horlali	KUMAH	22-Feb	DP1
+Hippolitus		OWITI	2-Feb	DP1
+Joshua	Effah	BENNEH	12-Feb	DP1
+Derrick	Osei	ADU	25-Feb	DP1
+Nana Kwasi		ADU-MARFO	12-Feb	DP1
+Tipagya	Sadique	WUMBEI	25-Feb	DP1
+Yooku	Boakye Dankwa	ESSAH	23-Feb	DP2
+Nana Adwoa	Adomako	BOAMAH	2-Feb	DP2
+Raphael	Nii Adjetey	SOWAH	21-Feb	DP2
+Danielle	Naa Yarkor	DARKU	16-Feb	DP2
+Egi		TAMAKLOE	23-Feb	DP2
+Eno Afia	Atwemaa	ACHEAMPONG	9-Mar	MYP5
+Stephen		BOAMAH	18-Mar	MYP5
+Martin		BORAYA	3-Mar	MYP5
+Lifi	Sesi Afua	KWETEY	2-Mar	MYP5
+Jacqueline		WILLIAMS	30-Mar	MYP5
+Godfrey	Anyango	OMONDI	22-Mar	MYP5
+Lydia		FRIMPOMAA	22-Mar	MYP5
+Christine		NABAKOOZA	9-Mar	MYP5
+Tristan	Alexander	CANFOR-DUMAS	8-Mar	DP1
+Jahaziel	Elikem Venkateswaran	DJOKOTO-GLIGUI	23-Mar	DP1
+Zaki	Mohammed	CHAMBAS	14-Mar	DP1
+Kojo	Gyamfi	APEAGYEI	13-Mar	DP1
+Nana Yaa	Boakyewaa	SIRIBOE	23-Mar	DP1
+Brian		KAMUCHISA	16-Mar	DP1
+Sean Aiden	Nana Owusu Akyem	KORANTENG	3-Mar	DP1
+Emmanuel		MUNIARE	15-Mar	DP1
+William		NSABIYUNVA	3-Mar	DP2
+Kimberly		SAOKE	3-Mar	DP2
+Barrest	Osei-Tutu	BROBBEY	20-Mar	DP2
+Ykealo	Tsegay	GEBREEGZIABHER	22-Mar	DP2
+Ines		MUNEZERO	18-Mar	DP2
+Linus		MURITHI	29-Mar	DP2
+Amy-Danielle	Nana Ekua Nhyira	ABOA	31-Mar	DP2
+Papa	Nii Adjiri	MANKATAH	16-Mar	DP2
+Anthony	Gyimah	TUFFUOR	20-Mar	DP2
+Akua	Naa Amele	LOKKO	30-Mar	DP2
+Magdaline		DARKO	9-Apr	MYP5
+Hephzibah Louise	Mawulom	GAMELI-KWAME	16-Apr	MYP5
+Adomba	Awuraa Adwoa	MORGAN-ASIEDU	2-Apr	MYP5
+Ewuraa Akua	Agyeiwaa	YEBOAH-ASARE	25-Apr	MYP5
+Alexander Louis	Etor	GAMELI-KWAME	16-Apr	MYP5
+Lucky		PONCHANK	14-Apr	MYP5
+Flavia		NANSASI	10-Apr	DP1
+Nicole	Adutwumwaa	ASENSO-BOAKYE	17-Apr	DP1
+Senam	Aku	DZAKPASU	26-Apr	DP1
+Joy	Nanrup	VENKUR	14-Apr	DP1
+Princess	Adeshewa	AYOADE	26-Apr	DP1
+Ayeyi	Ekua Egyirwa	BAAH	12-Apr	DP1
+Doris		MWIHAKI	22-Apr	DP1
+Ahmed	Shekemal	ABASIMEL	16-Apr	DP2
+Selorm	Siisi	AKO	9-Apr	DP2
+Chloe	Elinam	MAWUENYEGA	1-Apr	DP2
+Liti		MUKAYA	28-Apr	DP2
+Ruth		NAMIREMBE	7-Apr	DP2
+Stephanie	Sena Adzo	AMOA	5-Apr	DP2
+Sally	Adom	AMONOO-MENSAH	22-Apr	DP2
+Margaret		WANGARE	13-Apr	DP2
+Trevor	Alexander	CANFOR-DUMAS	16-Apr	DP2
+Kwasi	Nketsia	AFRIFA	27-Apr	DP2
+Frederick	Kwesi	FRIMPONG-MENSAH	17-Apr	DP2
+Sofiat	Olajumoke	ISMAIL	19-May	MYP5
+Sarah	Maame Efua	BEDELE	12-May	MYP5
+David	Kojo	FRIMPONG-MENSAH	21-May	MYP5
+Abraham	Temesgen	GELMESSA	18-May	MYP5
+Zachary	Kwame Gyasi	NSIAH	19-May	MYP5
+Bertha	Baanapoa	KUMANI	1-May	MYP5
+Romi	Mila Adwoa	DARKO	7-May	MYP5
+Davina	Naa Adjeley	ADJEI	17-May	DP1
+Abdul-Hakim		AREMEYAW	18-May	DP1
+Paa Kojo	Inkum	ANSAH	9-May	DP1
+Michelle	Georgina	BAIDEN	27-May	DP1
+Nana Afua	Asabea	OWUREKU-ASARE	20-May	DP1
+Daniella	Ewurama Mansa	DICKSON	6-May	DP1
+Yaw		OWUSU	25-May	DP1
+Ethan	Delroy	HAMMAH	19-May	DP2
+Linca	Cheilla	MUHITEKA	30-May	DP2
+Nana Banyin	Kojo	AKYIANU	2-May	DP2
+Ashley	Abena Pokua	KUMI	25-May	DP2
+Sifen	Damtew	KUMSA	5-May	DP2
+Danielle	Akosua Ohenewa	NSIAH	29-May	DP2
+Adam	Koray	SEIDU	15-May	DP2
+Halima	Sadia	IDDRISSU	21-Jun	MYP5
+Wiredu		OBENG	7-Jun	MYP5
+Weston	Asiedu	BOATENG	5-Jun	MYP5
+Rebecca		BONDZIE	6-Jun	MYP5
+Lydia		NAKABONGE	5-Jun	MYP5
+Ian Hubert	Nii Lartey	LARTEY	4-Jun	MYP5
+Diamond		OWUSU-MENSAH	29-Jun	MYP5
+Ohemaa Yaa		PREMUH	28-Jun	MYP5
+Grace	Breyei	BOATEN	26-Jun	MYP5
+Maame Afua	Asabea	YEBOAH	29-Jun	MYP5
+Iris 	Owusuwa	AKOSAH-YIADOM	15-Jun	DP1
+Lucy	Naa Koshie	LAMPTEY	9-Jun	DP1
+Lewis		BWEBALE	5-Jun	DP1
+Abdul Mubarik	Baba	MOHAMMED	20-Jun	DP1
+Richmond	Tettey	NARTEY	29-Jun	DP1
+Nana Afua	Kobi Serwaa Ampem	OSEI TUTU	11-Jun	DP1
+Jasmine	Sefakor	NUTOR	6-Jun	DP2
+Adebayo	Gbenga	BELLO	25-Jun	DP2
+Esi Pomaa		AWUA-KYEREMATEN	1-Jul	MYP5
+Eva		ESSUMAN	11-Jul	MYP5
+Narkie		DORH	19-Jul	MYP5
+Sindiso		NGULUBE	1-Jul	MYP5
+Emmanuel		PAM	7-Jul	MYP5
+Pacifique		NIZIRERE	5-Jul	MYP5
+Isabel	Adjoa Gyamfua	BOBIE	2-Jul	MYP5
+Kokui	Shika	SELORMEY	20-Jul	MYP5
+Justin	Jamie	WULFF-CAESAR	3-Jul	DP1
+Daryl	Theodore Selorm	OWARE	21-Jul	DP1
+Monday	Paul	SALIHU	7-Jul	DP1
+Jada	Alyssa	WULFF-CAESAR	3-Jul	DP1
+David	Jacob	BLANKSON-HEMANS	25-Jul	DP1
+Nickson		LUSWETI	24-Jul	DP1
+Tonny		OCHIENG	7-Jul	DP1
+Natasha	Nadine	NETTEY	13-Jul	DP1
+Renee	Nketiaba	BONSU	17-Jul	DP2
+Nana Kofi	Frank	OWUSU	29-Jul	DP2
+Nehemiah		ADUMA	6-Jul	DP2
+Robert	Kofi Adjei Sika	ACKAH	4-Aug	MYP5
+Seyram	Sika	AKO	20-Aug	MYP5
+Ruwaida	Arinze	MUNTARI	19-Aug	MYP5
+Niyat	Hagos	HAILU	8-Aug	MYP5
+Isaac		KIMATHI	17-Aug	MYP5
+Adeline		UMUKUNDWA	9-Aug	MYP5
+Priscilla		FREMAH	15-Aug	MYP5
+Kieran	Kwame	POBEE	20-Aug	MYP5
+Shelli-Anne	Mamaa	SAM	22-Aug	MYP5
+Samuel		ADEARI	8-Aug	DP1
+Kelden O.	Kofi	FUACHIE	4-Aug	DP1
+Brianna	Nana Oye	BAMPOE ADDO	10-Aug	DP1
+Maria		Addaquay 	1-Aug	DP1
+Solomon		EDATU	6-Aug	DP2
+David		OSORO	3-Aug	DP2
+Naa	Adjorkor	ANANG-LA	16-Aug	DP2
+Patrick		SSENGENDO	16-Aug	DP2
+Kwaku	Addo	ADDO-KUFUOR	19-Sep	MYP5
+Korpo	Ola	FREEMAN	13-Sep	MYP5
+Afua	Amene	LOKKO	28-Sep	MYP5
+Jesse	Kwaku Kyere	NKANSAH	19-Sep	MYP5
+Jayden Samson	Kofi Acheampong	BOAFO	29-Sep	MYP5
+Jake Christopher	Kwaku Kankam	DARKOH	19-Sep	MYP5
+Cedric		IRANKUNDA	9-Sep	MYP5
+Sena	Kofi Adom	OHENE	8-Sep	MYP5
+Kwaku	Gyewuhene-Bona	SIRIBOE	12-Sep	MYP5
+Sandrine		NIYONKURU	16-Sep	DP1
+Barimah	Yaw Owusu	TWENEBOAH-KODUAH	16-Sep	DP1
+Lidiya	Tariku	GEMTA	5-Sep	DP1
+Elizabeth-Ann	Yarley	MENSA	21-Sep	DP1
+Edith	Dede	ACCAM	3-Sep	DP1
+Samuel	Tetteh	AYITEVIE	15-Sep	DP1
+Fafali	Ami	GODZI	17-Sep	DP1
+Selorm Comfort	Kokui Esi	MORTOTI	24-Sep	DP1
+Israel		TAMAKA	7-Sep	DP1
+Nunar	Abui	TAMAKLOE	25-Sep	DP1
+Darlene	Delasie	BARTH	21-Sep	DP2
+Mafeng		PAM	9-Sep	DP2
+Theresa	Maame Serwaa	AKWASI KUMA	24-Sep	DP2
+Innocente		NISHIMWE	11-Sep	DP2
+Bijou	Mawuena	ADADEVOH	29-Sep	DP2
+Ikechukwu	Franklyn	ALFRED	8-Sep	DP2
+Sean	Kojo	BAWUAH	27-Sep	DP2
+Ethan	Kwabena	ADUSEI	3-Oct	MYP5
+Nevin	Kwadwo Teye	DABRAH	30-Oct	MYP5
+Lebon		IRAKIZA	5-Oct	MYP5
+Nadia		JALALUDEEN	17-Oct	MYP5
+Papa Yaw		AMOAKO-ATUOBI	19-Oct	MYP5
+Soleil-Imani		BOONIN	25-Oct	MYP5
+Nana		BAFFOUR ADDO	24-Oct	MYP5
+Goodness	Nnesoma	EMENIKE	31-Oct	MYP5
+Tracy		MBABAZI	15-Oct	MYP5
+Pharrel	Kwabena	ANOKYE-ADISI	3-Oct	MYP5
+Kofi	Agyekum	ANOKURANG-BUDU	1-Oct	DP1
+Mariama	Nenejoh	BAH	5-Oct	DP1
+Esther	Sarponbea	BAMPOE ADDO	30-Oct	DP1
+Naa	Kailey	ADDO	9-Oct	DP1
+Ella	Delicia	KABANGA	10-Oct	DP1
+Lorena	Ewura Adjoa	ADJEI	17-Oct	DP2
+Dickson	Nyamekye	OWIREDU	4-Oct	DP2
+Nanre (Gloria)		PONCHAK	16-Oct	DP2
+Michael	Ayiku	BOATENG	25-Oct	DP2
+Everest		KASOZI	13-Oct	DP2
+Anthony	Kwesi	OKYERE	31-Oct	DP2
+Danielle	Afia	POKU	15-Oct	DP2
+Stephanie		WILLIAMS	15-Oct	DP2
+Maltiti		WUMBEI	11-Nov	MYP4
+Amewusika	Afi	AMEDEKER	10-Nov	MYP5
+Nana Ahenfua		DANKWA	17-Nov	MYP5
+Elsie	Nana Gyasiwah	ARTHUR	15-Nov	MYP5
+Guy Gael		SINDAYIKENGERA	25-Nov	MYP5
+Mary Rose	Angel	KPODA	20-Nov	DP1
+Moses	Alenma-Ako-Yem	ADONGO	29-Nov	DP1
+Alicia		ASANTE	23-Nov	DP1
+Francine		NGABIYE	15-Nov	DP1
+Ashley		ASANTE	23-Nov	DP1
+Ellen		ESSUMAN	16-Nov	DP1
+David	Chidi	NKPA	23-Nov	DP2
+Kweku	Kwarko	APPIAH	10-Nov	DP2
+Maame Afua	Sarpong	KOME-MENSAH	12-Nov	DP2
+Jephter	Nhyira	FRIMPONG	21-Nov	DP2
+Steve		MUGISHA	19-Nov	DP2
+Papa Kofi	Appiah	ADI-DAKO	11-Nov	DP2
+Kojo	Joshua Kesse	ASAMOAH	4-Dec	MYP5
+Darlene		SINDAYIKENGERA	30-Dec	MYP5
+Andrew	Mawuko	ARKUTU	19-Dec	MYP5
+Dane	Afoakwa	OWUSU-AGYEMAN	30-Dec	MYP5
+Ivan	David Christopher	SNOWDEN	25-Dec	MYP5
+Holiness	Boadu	YEBOAH	29-Dec	MYP5
+Roza	Adugna	ASHAGRE	26-Dec	MYP5
+Seidu		KABORE	3-Dec	MYP5
+Papa Kwaku	Opoku	OPOKU-AFARI	27-Dec	MYP5
+Ashley-Dora	Kokui	TAMAKLO	18-Dec	MYP5
+Nuna	Kwasi	AGBODZA	11-Dec	DP1
+Bilelign	Workneh	KEBEDE	13-Dec	DP1
+Lindiwe	Seyram	NUTSUGAH	26-Dec	DP1
+Makanaka		NYATI	19-Dec	DP1
+Chief	Kwadwo Awere	OWUSU	5-Dec	DP1
+Hillary		SSEMANDA	7-Dec	DP1
+Edward	Kweku	EFFAH	1-Dec	DP1
+Andy	Jojo Paadam	ABAYENA	29-Dec	DP2
+James		GYANG	17-Dec	DP2
+Andrea	Norwah Magxander	KEKULA	1-Dec	DP2
+Russell	William	SNOWDEN	22-Dec	DP2
+Kwame	Afriyie	ADDO-KUFUOR	8-Dec	DP2
+Abeiku	Sam	ARMOO	25-Dec	DP2
+Annette	Delali	EGBENYA	23-Dec	DP2
+Nana	Yaw	AGYEMAN	9-Dec	DP2

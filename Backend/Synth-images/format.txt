@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/vitalik-hakim/TABLES404/main/imgs/audiovisualroom1.png
+
+https://raw.githubusercontent.com/vitalik-hakim/TABLES404/main/imgs/{name}{.png}
+https://raw.githubusercontent.com/vitalik-hakim/TABLES404/main/imgs/bright-vincent-hortorku.png

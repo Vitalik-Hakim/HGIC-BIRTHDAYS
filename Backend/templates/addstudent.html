@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Add Student</title>
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="mt-4">
+      <div
+        class="alert alert-success alert-dismissible fade show hoverable"
+        role="alert"
+        style="display: none"
+      >
+        Student birthday added successfully!
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+    <div class="mt-4">
+      <div
+        class="alert alert-danger alert-dismissible fade show hoverable"
+        role="alert"
+        style="display: none"
+      >
+        An Error occurred please try again
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+    <style>
+      .hoverable {
+        position: relative;
+        transition: transform 0.2s;
+      }
+
+      .hoverable:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      }
+    </style>
+    <div class="container">
+      <h1 class="mt-4">Add Student Birthday</h1>
+      <form id="add-student-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="day" class="form-label">Day</label>
+          <input
+            type="number"
+            class="form-control"
+            id="day"
+            name="day"
+            min="1"
+            max="31"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="month" class="form-label">Month</label>
+          <select class="form-select" id="month" name="month" required>
+            <option value="">Choose Month</option>
+            <option value="Jan">January</option>
+            <option value="Feb">February</option>
+            <option value="Mar">March</option>
+            <option value="Apr">April</option>
+            <option value="May">May</option>
+            <option value="Jun">June</option>
+            <option value="Jul">July</option>
+            <option value="Aug">August</option>
+            <option value="Sep">September</option>
+            <option value="Oct">October</option>
+            <option value="Nov">November</option>
+            <option value="Dec">December</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="year-group" class="form-label">Year Group</label>
+          <select class="form-select" id="year-group" name="yeargroup" required>
+            <option value="">Choose Year Group</option>
+            <option value="MYP5">MYP4</option>
+            <option value="MYP5">MYP5</option>
+            <option value="DP1">DP1</option>
+            <option value="DP2">DP2</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="image" class="form-label">Image Link</label>
+          <input
+            type="text"
+            class="form-control"
+            id="image"
+            name="image"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary" id="add-student-btn">
+          Add Student
+        </button>
+        <a href="/home">
+          <button type="button" class="btn btn-success" id="#">
+            Go back home
+          </button>
+        </a>
+      </form>
+    </div>
+    <script>
+      $(document).ready(() => {
+        // handle form submission
+        $("#add-student-form").submit((event) => {
+          event.preventDefault(); // prevent default form submission behavior
+          const form = $(event.currentTarget);
+          const formData = form.serialize(); // get form data as query string
+          const url = `http://127.0.0.1:8000/add-birthday?${formData}`; // build URL with query parameters
+          // make GET request with URL
+          $.get(url, (data) => {
+            console.log(data); // handle API response
+            if (data === "success") {
+              $(".alert-success").fadeIn(1000, () => {
+                $(".alert-success").fadeOut(3000);
+              });
+              form.trigger("reset");
+            } else {
+              $(".alert-danger").fadeIn(1000, () => {
+                $(".alert-danger").fadeOut(3000);
+              });
+              form.trigger("reset");
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
